@@ -27,7 +27,7 @@ spec:
         - name: rate-limit-policy
       action:
         pass: api
-      - path: /api/inventory
+    - path: /api/inventory
       action:
         proxy:
           upstream: inventory
